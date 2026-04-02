@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Connect</title>
+  <meta
+    name="description"
+    content="Driven by curiosity. A frosted glass portfolio for projects, GitHub repositories, live demos, and embedded documentation."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar glass-panel">
+      <a class="brand" href="#top">Lennart Stroehle</a>
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#docs">Docs</a>
+        <a href="#contact">Links</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Driven by curiosity</p>
+          <h1>Portfolio</h1>
+          <p class="hero-text">
+            Selected AI projects, live demos, and case-study documentation focused on practical product thinking and fast iteration.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View projects</a>
+            <a class="button button-secondary" href="#docs">Open docs</a>
+          </div>
+        </div>
+
+        <aside class="hero-stack">
+          <article class="glass-card card-focus">
+            <span class="card-label">About</span>
+            <h2>Lennart Stroehle</h2>
+            <p>
+              Senior Consultant in Software Defined Vehicle, building practical AI prototypes, product-facing tools, and clear technical documentation.
+            </p>
+          </article>
+        </aside>
+      </section>
+
+      <section class="section" id="projects">
+        <div class="section-heading">
+          <p class="eyebrow">My work</p>
+          <h2>Projects worth clicking into</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card glass-panel">
+            <div class="project-topline">
+              <span class="project-tag">Data App</span>
+              <span class="project-status">Live</span>
+            </div>
+            <h3>AI Requirements Engine</h3>
+            <p>
+              Transforms raw requirements into structured specifications, user stories, and test cases with duplicate detection and Linear integration.
+            </p>
+            <div class="project-badges" aria-label="Repository badges">
+              <img
+                src="https://img.shields.io/github/stars/skulld0zer/ai-requirements-engine?style=for-the-badge&label=Stars&labelColor=0f172a&color=e5f0ff"
+                alt="GitHub stars for AI Requirements Engine"
+              >
+              <img
+                src="https://img.shields.io/github/last-commit/skulld0zer/ai-requirements-engine?style=for-the-badge&label=Updated&labelColor=0f172a&color=e5f0ff"
+                alt="Last commit for AI Requirements Engine"
+              >
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/skulld0zer/ai-requirements-engine" target="_blank" rel="noreferrer">GitHub Repo</a>
+              <a href="https://ai-requirements-engine-xb66jvmzyzcbspntkwb4pr.streamlit.app/" target="_blank" rel="noreferrer">Live Streamlit</a>
+            </div>
+          </article>
+
+          <article class="project-card glass-panel">
+            <div class="project-topline">
+              <span class="project-tag">Governance</span>
+              <span class="project-status">Live</span>
+            </div>
+            <h3>EU AI Act Governance Workspace</h3>
+            <p>
+              Assesses enterprise AI use cases against the EU AI Act with RAG, decision logic, confidence scoring, and a persisted review board.
+            </p>
+            <div class="project-badges" aria-label="Repository badges">
+              <img
+                src="https://img.shields.io/github/stars/skulld0zer/compliance_llm?style=for-the-badge&label=Stars&labelColor=0f172a&color=e5f0ff"
+                alt="GitHub stars for EU AI Act Governance Workspace"
+              >
+              <img
+                src="https://img.shields.io/github/last-commit/skulld0zer/compliance_llm?style=for-the-badge&label=Updated&labelColor=0f172a&color=e5f0ff"
+                alt="Last commit for EU AI Act Governance Workspace"
+              >
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/skulld0zer/compliance_llm" target="_blank" rel="noreferrer">GitHub Repo</a>
+              <a href="https://compliancellm-aftdumyqjjnesgk9dbqnux.streamlit.app/" target="_blank" rel="noreferrer">Live Streamlit</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section docs-section" id="docs">
+        <div class="section-heading">
+          <h2>Documentation</h2>
+        </div>
+
+        <div class="docs-grid">
+          <article class="doc-card glass-panel">
+            <div class="doc-header">
+              <div>
+                <h3>AI Requirements Engine Case Study</h3>
+              </div>
+              <a href="assets/docs/Requirements%20Engine.pdf" target="_blank" rel="noreferrer">Open PDF in new tab</a>
+            </div>
+            <iframe
+              src="assets/docs/Requirements%20Engine.pdf"
+              title="AI Requirements Engine Documentation"
+              loading="lazy"
+            ></iframe>
+          </article>
+
+          <article class="doc-card glass-panel">
+            <div class="doc-header">
+              <div>
+                <h3>Compliance LLM Case Study</h3>
+              </div>
+              <a href="assets/docs/Compliance%20LLM.pdf" target="_blank" rel="noreferrer">Open PDF in new tab</a>
+            </div>
+            <iframe
+              src="assets/docs/Compliance%20LLM.pdf"
+              title="Compliance LLM Documentation"
+              loading="lazy"
+            ></iframe>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer glass-panel" id="contact">
+      <div>
+        <p class="eyebrow">Connect</p>
+        <h2>Driven by curiosity.</h2>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/skulld0zer" target="_blank" rel="noreferrer">GitHub Profile</a>
+        <a href="https://www.linkedin.com/in/lennartstroehle/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
